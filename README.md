@@ -43,13 +43,5 @@ Ce projet Java est une application de gestion de réservations de salles. Elle p
 5. **Intégration Calendrier**: Intégrer un calendrier pour une visualisation et une gestion plus aisée des réservations.
 6. **Notifications**: Mettre en place un système de notifications pour informer les utilisateurs des modifications de réservation.
 7. **Tests Unitaires**: Écrire des tests unitaires pour assurer la fiabilité et la stabilité de l'application.
-8. **Documentation API**: Si une API est développée, fournir une documentation détaillée pour faciliter son intégration.
 
-## Contributions
-Les contributions à ce projet sont les bienvenues. Veuillez suivre les étapes suivantes pour contribuer :
-1. Forker le projet
-2. Créer une nouvelle branche (`git checkout -b feature/nouvelleFonctionnalite`)
-3. Commit vos changements (`git commit -m 'Ajout de quelque chose de nouveau'`)
-4. Push à la branche (`git push origin feature/nouvelleFonctionnalite`)
-5. Ouvrir une Pull Request
 ```
