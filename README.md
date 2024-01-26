@@ -12,14 +12,11 @@ Ce projet Java est une application de gestion de réservations de salles. Elle p
 
 ## Comment Utiliser
 1. **Cloner le projet**:
-   ```bash
    git clone [url-du-repo]
-   ```
+
 2. **Compiler et Exécuter le programme**:
-   ```bash
    javac Main.java
    java Main
-   ```
 
 ## Structure du Projet
 - `Main.java`: Point d'entrée de l'application. Gère l'interface utilisateur et les interactions.
