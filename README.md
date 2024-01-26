@@ -19,6 +19,7 @@ Ce projet Java est une application de gestion de réservations de salles. Elle p
    java Main
 
 3. Ajouter le connecteur `mysql-connector-j-8.0.31.jar` au projet
+
 ## Structure du Projet
 - `Main.java`: Point d'entrée de l'application. Gère l'interface utilisateur et les interactions.
 - `Salle.java`: Classe de gestion des salles, contient des méthodes CRUD pour les salles.
