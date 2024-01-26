@@ -17,7 +17,7 @@ public class Reservation {
     private String responsable;
     private Salle salle;
 
-    // Constructeur (ajustez selon votre schéma de base de données)
+    // Constructeur 
     public Reservation(int id, Date date, Time heureDep, Time heureFin, String promo, String responsable, Salle salle) {
         this.id = id;
         this.date = date;
@@ -29,7 +29,7 @@ public class Reservation {
     }
     
     
-    // Getters and Setters (ajustez selon votre schéma de base de données)
+    // Getters and Setters 
  // Méthode pour ajouter une réservation dans la base de données
     public static void addReservation(Date date, Time heureDep, Time heureFin, String promo, String responsable, Salle salle) {
         try (Connection connection = DatabaseConnector.getConnection();

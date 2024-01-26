@@ -46,7 +46,7 @@ public class Main {
                     } catch (java.util.InputMismatchException e) {
                         // Afficher un message d'erreur et vider le scanner pour éviter une boucle infinie
                         System.out.println("Veuillez saisir un nombre entier.");
-                        scanner.nextLine(); // Consommer la nouvelle ligne restante dans le tampon
+                        scanner.nextLine(); 
                     }
                 }
 
@@ -66,7 +66,7 @@ public class Main {
                             } catch (java.util.InputMismatchException e) {
                                 // Afficher un message d'erreur et vider le scanner pour éviter une boucle infinie
                                 System.out.println("Veuillez saisir un nombre entier.");
-                                scanner.nextLine(); // Consommer la nouvelle ligne restante dans le tampon
+                                scanner.nextLine(); 
                             }
                         }
 
@@ -79,7 +79,7 @@ public class Main {
                             } catch (java.util.InputMismatchException e) {
                                 // Afficher un message d'erreur et vider le scanner pour éviter une boucle infinie
                                 System.out.println("Veuillez saisir un nombre entier.");
-                                scanner.nextLine(); // Consommer la nouvelle ligne restante dans le tampon
+                                scanner.nextLine();
                             }
                         }
 
@@ -106,7 +106,7 @@ public class Main {
                     	    } catch (java.util.InputMismatchException e) {
                     	        // Afficher un message d'erreur et vider le scanner pour éviter une boucle infinie
                     	        System.out.println("Veuillez saisir un nombre entier.");
-                    	        scanner.nextLine(); // Consommer la nouvelle ligne restante dans le tampon
+                    	        scanner.nextLine(); 
                     	    }
                     	}
                     	
@@ -127,7 +127,7 @@ public class Main {
                     	    } catch (java.util.InputMismatchException e) {
                     	        // Afficher un message d'erreur et vider le scanner pour éviter une boucle infinie
                     	        System.out.println("Veuillez saisir un nombre entier.");
-                    	        scanner.nextLine(); // Consommer la nouvelle ligne restante dans le tampon
+                    	        scanner.nextLine(); 
                     	    }
                     	}
 
@@ -179,7 +179,7 @@ public class Main {
                         Time heureFin = Time.valueOf(heureFinString);
 
                         System.out.print("Entrez la promo : ");
-                        scanner.nextLine(); // Consommer le retour à la ligne précédent
+                        scanner.nextLine(); 
 
                         String promo = scanner.nextLine();
 
@@ -235,7 +235,7 @@ public class Main {
                         Time nouvelleHeureFin = Time.valueOf(heureFinString2);
 
                         System.out.print("Entrez la nouvelle promo : ");
-                        scanner.nextLine(); // Consommer le retour à la ligne précédent
+                        scanner.nextLine(); 
                         String nouvellePromo = scanner.nextLine();
 
                         System.out.print("Entrez le nouveau responsable : ");
@@ -316,7 +316,7 @@ public class Main {
                 System.out.print("Voulez-vous continuer ? (O/N) : ");
                 String continuer = scanner.next().trim().toLowerCase();
                 if (!continuer.equals("o")) {
-                    break; // Sortir de la boucle principale si l'utilisateur ne veut pas continuer
+                    break; 
                 }
             }
 

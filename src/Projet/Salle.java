@@ -23,7 +23,7 @@ public class Salle {
     public int getId() {
         return id;
     }
-    // Getters and Setters (comme dans l'exemple précédent)
+    // Getters and Setters 
 
     // Méthode pour ajouter une salle dans la base de données
     public static void addSalle(String batiment, int etage, int numero) throws SQLException {
@@ -39,7 +39,7 @@ public class Salle {
 
         } catch (SQLException e) {
             e.printStackTrace();
-            throw e; // Vous pouvez gérer l'exception de manière appropriée selon votre application
+            throw e; //
         }
     }
 
@@ -58,7 +58,7 @@ public class Salle {
 
         } catch (SQLException e) {
             e.printStackTrace();
-            throw e; // Vous pouvez gérer l'exception de manière appropriée selon votre application
+            throw e; 
         }
     }
 
@@ -74,7 +74,7 @@ public class Salle {
 
         } catch (SQLException e) {
             e.printStackTrace();
-            throw e; // Vous pouvez gérer l'exception de manière appropriée selon votre application
+            throw e; 
         }
     }
 
