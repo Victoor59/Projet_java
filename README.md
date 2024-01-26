@@ -25,7 +25,7 @@ Ce projet Java est une application de gestion de réservations de salles. Elle p
 - `Main.java`: Point d'entrée de l'application. Gère l'interface utilisateur et les interactions.
 - `Salle.java`: Classe de gestion des salles, contient des méthodes CRUD pour les salles.
 - `Reservation.java`: Classe de gestion des réservations, contient des méthodes CRUD pour les réservations.
-- `DatabaseConnector.java`: Gère les connexions à la base de données (à implémenter).
+- `DatabaseConnector.java`: Gère les connexions à la base de données.
 
 ## Technologies Utilisées
 - Java
